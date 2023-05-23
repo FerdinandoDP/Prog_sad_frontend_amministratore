@@ -142,10 +142,10 @@ export default class Utenti_page extends React.Component{
                                     <Modal.Body>Sei sicuro di voler eliminare: {this.state.nome_u_d} {this.state.cognome_u_d} ?</Modal.Body>
                                     <Modal.Footer>
                                     <Button variant="dark" onClick={()=>this.close_modal()}>
-                                        Close
+                                        Chiudi
                                     </Button>
                                     <Button variant="outline-danger" onClick={()=>this.delete_user(this.state.utente_da_eliminare)}>
-                                        Save Changes
+                                        Salva Modifiche
                                     </Button>
                                     </Modal.Footer>
                         </Modal>

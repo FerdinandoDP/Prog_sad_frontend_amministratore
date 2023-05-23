@@ -513,7 +513,7 @@ export default class Home_Amm extends React.Component{
           </Modal.Body>
           <Modal.Footer>
             <Button variant="outline-danger" onClick={handleClose}>
-              Close
+              Chiudi
             </Button>
             <Button variant="dark" onClick={add_Element}>Invia</Button>
           </Modal.Footer>
@@ -534,10 +534,10 @@ export default class Home_Amm extends React.Component{
         </Modal.Body>
         <Modal.Footer>
           <Button variant="outline-danger" onClick={closeDelModal}>
-            Close
+            Chiudi
           </Button>
           <Button variant="dark" onClick={delete_element}>
-            Save Changes
+            Salva Modifiche
           </Button>
         </Modal.Footer>
       </Modal>
@@ -621,10 +621,10 @@ export default class Home_Amm extends React.Component{
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="outline-danger" onClick={this.CloseModalModify}>
-                  Close
+                  Chiudi
                 </Button>
                 <Button variant="dark" onClick={this.SaveModifyPostazione}>
-                  Save Changes
+                  Salva Modifiche
                 </Button>
               </Modal.Footer>
             </Modal>
@@ -689,10 +689,10 @@ export default class Home_Amm extends React.Component{
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="outline-danger" onClick={this.CloseModalModifySale}>
-                  Close
+                  Chiudi
                 </Button>
                 <Button variant="dark" onClick={this.SaveModifySale}>
-                  Save Changes
+                  Salva Modifiche
                 </Button>
               </Modal.Footer>
             </Modal>
