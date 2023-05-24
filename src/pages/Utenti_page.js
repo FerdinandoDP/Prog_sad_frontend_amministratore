@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import history_b from '../history.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Utenti.css';
-import './Home.css';
+
 import { Change_path } from '../usehistory.js';
 import PropTypes from "prop-types";
 import {Link} from 'react-router-dom';
@@ -128,7 +128,7 @@ export default class Utenti_page extends React.Component{
     render(){
         return(
             <Container fluid >
-                <Row className='cont_img_home' >
+                <Row className='cont_img_Utenti' >
                     <Col xs={12}></Col>
                     <Col className='d-flex justify-content-center'>
                         <h1 id='text_shadow' className='text-white'>UTENTI</h1>

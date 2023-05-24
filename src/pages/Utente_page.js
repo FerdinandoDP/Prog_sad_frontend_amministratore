@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import history_b from '../history.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Utenti.css';
-import './Home.css';
+
 import { Alert, Row , Col, Form, Button, Container, ListGroup, ListGroupItem, Stack, Modal,InputGroup, Card, Spinner} from 'react-bootstrap';
 export default class Utente_page extends React.Component{
     constructor(props){
@@ -205,7 +205,7 @@ export default class Utente_page extends React.Component{
     render(){
         return(
             <Container fluid >
-                <Row className='cont_img_home'>
+                <Row className='cont_img_Utenti'>
                     <Col xs={12}></Col>
                     <Col className='d-flex justify-content-center'>
                         <h1 id='text_shadow' className='text-white'>UTENTE</h1>
