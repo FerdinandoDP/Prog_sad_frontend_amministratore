@@ -1,5 +1,5 @@
 # Elementi app
-Nel progetto è presente un file bat per l'esecuzione del frontend in localo così come previsto dalla documentazione. Nella cartella src sono presenti:
+Nel progetto è presente un file bat per l'esecuzione del frontend in locale così come previsto dalla documentazione. Nella cartella src sono presenti:
 - un index.js che richiama il file App.js e lo renderizza
 - un file App.js che renderizza al suo interno il Footer e la Navbar
 # Cartella style components 
