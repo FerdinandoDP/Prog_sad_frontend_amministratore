@@ -8,8 +8,8 @@ In questa cartella sono presenti:
 - Navbar che presenta due componenti una Navbar (importato da bootstrap-react) e un BrowserRouter che permette la navgabilità tra le pagine in base al cambiamento del path
 # Cartella pages 
 In questa cartella sono presenti:
--Home_Amm: che rappresenta la pagina home dell'app relativa a gestione di sale e postazioni
--Utenti_page: che rappresenta la pagina Utenti, ossia la pagina contenente la lista degli utenti iscritti alla piattaforma in cui è possibile eliminare utenti oppure andare alla pagina Utente
--Utente_page: che rappresenta la pagina Utente, ossia la pagina di un singolo utente accessibile tramite il pulsante visualizza presente nella pagina "Utenti", in cui è possibile visualizzare e modificare alcuni dati dell'Utente (ticket, nome, cognome ecc.) 
+- Home_Amm: che rappresenta la pagina home dell'app relativa a gestione di sale e postazioni
+- Utenti_page: che rappresenta la pagina Utenti, ossia la pagina contenente la lista degli utenti iscritti alla piattaforma in cui è possibile eliminare utenti oppure andare alla pagina Utente
+- Utente_page: che rappresenta la pagina Utente, ossia la pagina di un singolo utente accessibile tramite il pulsante visualizza presente nella pagina "Utenti", in cui è possibile visualizzare e modificare alcuni dati dell'Utente (ticket, nome, cognome ecc.) 
 
 Infine sono presenti alcuni file css per visualizzare al meglio i contenuti
